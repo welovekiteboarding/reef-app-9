@@ -1,0 +1,30 @@
+{
+  "env": {
+    "required": [
+      "LINEAR_API_KEY"
+    ]
+  },
+  "project": {
+    "name": "reef-app-9"
+  },
+  "github": {
+    "repo": "welovekiteboarding/reef-app-9"
+  },
+  "linear": {
+    "team_key": "RA9",
+    "team_name": "ReefApp9",
+    "workflow_states": [
+      "Todo",
+      "In Progress",
+      "Human Review",
+      "Rework",
+      "Merging",
+      "Done"
+    ]
+  },
+  "proof_issue": {
+    "state": "Todo",
+    "description": "Add a new file at docs/live-proof-setup-run-merge.md with a short note that this issue proves the fresh two-part startup plus queue and merge path.",
+    "title": "Create deterministic live-proof artifact"
+  }
+}
